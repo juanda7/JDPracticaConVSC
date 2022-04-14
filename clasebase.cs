@@ -5,8 +5,8 @@ public class ClaseBase
 {
    public int Edad{get;set;}
 
-   public int CalcularElDobleDeEdad()
+   public int CalcularElDobleDeEdad(int restar)
    {
-       return Edad*2;
+       return (Edad-restar)*2;
    }
 }
