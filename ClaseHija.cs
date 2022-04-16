@@ -5,8 +5,9 @@ public class ClaseHija:ClaseBase
 {
    public double Peso{get;set;}
 
-   public double CalcularPeso(int peso)
+   public double CalculaPeso(int peso)
    {
-       return Peso;
+	 int factorPeso = 2;
+       return Peso*factorPeso;
    }
 }
