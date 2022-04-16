@@ -7,7 +7,7 @@ public class ClaseBase
 
    public int CalcularElDobleDeEdad(int restar)
    {
-       int sumar;
-       return (Edad-restar)*2;
+       int sumar = 5;
+       return (Edad-restar+sumar)*2;
    }
 }
